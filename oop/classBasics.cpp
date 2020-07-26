@@ -44,6 +44,12 @@ public:
     {
         year = y;
     }
+    
+    // default destructor
+    ~Date()
+    {
+        
+    }
 };
 
 int main()
