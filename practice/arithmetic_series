@@ -1,0 +1,29 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+
+int main ()
+{
+    cout << "Enter First number: ";
+    int n1;
+    cin >> n1;
+
+    cout << "Enter Second number: ";
+    int n2;
+    cin >> n2;
+
+    int d = n2 - n1;
+
+    cout << "\n\nYou Entered " << n1 << "," << n2 << "...";
+
+    cout << "\n\nThe difference is " << n2 << " - " << n1 << " = " << d;
+    cout << "\n\nThe series generated is\n\n";
+
+    for(int i = 0; i <= 5; i++)
+    {
+        cout << n1 << ",";
+        n1 += d;
+    }
+
+}
