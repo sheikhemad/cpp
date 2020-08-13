@@ -11,6 +11,10 @@ public:
     {
         ++i;
     }
+    void operator --()
+    {
+        --i;
+    }
     void Display()
     {
         cout << "i=" << i << endl;
